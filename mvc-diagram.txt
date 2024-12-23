@@ -1,0 +1,26 @@
++-----------------+       +-----------------+       +-----------------+
+|    BookForm     |       |   BookController|       |      Book       |
+|-----------------|       |-----------------|       |-----------------|
+|+ShowBooks()     |<----->|+GetBooks()      |<----->|+Id              |
+|+AddBook()       |       |+AddBook()       |       |+Title           |
+|+UpdateBook()    |       |+UpdateBook()    |       |+Author          |
+|+DeleteBook()    |       |+DeleteBook()    |       |+Price           |
++-----------------+       +-----------------+       +-----------------+
+
++-----------------+       +-----------------+       +-----------------+
+|   CustomerForm  |       | CustomerController|     |    User     |
+|-----------------|       |-----------------|       |-----------------|
+|+ShowCustomers() |<----->|+GetCustomers()  |<----->|+Id              |
+|+AddCustomer()   |       |+AddCustomer()   |       |+Name            |
+|+UpdateCustomer()|       |+UpdateCustomer()|       |+Address         |
+|+DeleteCustomer()|       |+DeleteCustomer()|       |+Phone           |
++-----------------+       +-----------------+       +-----------------+
+
++-----------------+       +-----------------+       +-----------------+
+|    OrderForm    |       |   OrderController|      |      Bill      |
+|-----------------|       |-----------------|       |-----------------|
+|+ShowOrders()    |<----->|+GetOrders()     |<----->|+Id              |
+|+AddOrder()      |       |+AddOrder()      |       |+Customer        |
+|+UpdateOrder()   |       |+UpdateOrder()   |       |+Book            |
+|+DeleteOrder()   |       |+DeleteOrder()   |       |+Quantity        |
++-----------------+       +-----------------+       +-----------------+
